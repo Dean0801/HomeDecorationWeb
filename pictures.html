@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/pictures.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+</head>
+<body>
+	<!-- 回到顶部按钮 -->
+	<a href="javascript:void(0);" class="toTop">
+		<img src="images/totop.png" alt="">
+	</a>
+
+	<!-- 网页头部开始 -->
+	<div class="header">
+
+		<div class="header_content">
+			
+			<!-- 头部左侧 -->
+			<div class"header_left">
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="neighbor.html">进入社区</a></li>
+				</ul>
+			</div>
+
+			<!-- 头部右侧 -->
+			<div class="header_right">
+				<ul>
+					<li><a href="" style="color:#38b5f9;">签到</a></li>
+					<li><a href="login.html">登录</a></li>
+					<li><a href="register.html">注册</a></li>
+				</ul>
+			</div>
+			
+		</div>
+
+	</div>
+	<!-- 网页头部结束 -->
+	
+	<!-- 导航栏区域开始 -->
+	<div class="naver">
+		<img src="images/logo.png" alt="酷家乐">
+		<ul>
+			<li><a href="index.html">首页</a></li>
+			<li><a href="sample.html">样板间</a></li>
+			<li><a href="pictures.html" class="naver-select">效果图</a></li>
+			<li><a href="neighbor.html">社区</a></li>
+			<li class="hot">
+				<a href="app.html">下载APP</a>
+				<img src="images/hot.gif">
+			</li>
+		</ul>
+		<input type="text" id="search_box">
+		<div class="icon icon-search"></div>
+	</div>
+	<!-- 导航栏区域结束 -->
+	
+	<!-- 主体内容区开始 -->
+	<div class="page_container">
+		<div class="examples_content">
+			<h4>101,231张装修效果图</h4>
+			<div class="factor" style="display:none;">
+				<span>&gt;</span>
+				<ul>
+					
+				</ul>
+				<a href="" class="clearall">清除所有条件</a>
+			</div>
+			
+			<table>
+				<tr>
+					<th>家居空间</th>
+					<td>
+						<div class="common-e">
+							<a href="javascript:void(0);">厨房</a>
+							<a href="javascript:void(0);">客厅</a>
+							<a href="javascript:void(0);">卫生间</a>
+							<a href="javascript:void(0);">卧室</a>
+							<a href="javascript:void(0);">餐厅</a>
+							<a href="javascript:void(0);">书房</a>
+							<a href="javascript:void(0);">玄关</a>
+							<a href="javascript:void(0);">阳台</a>
+							<a href="javascript:void(0);">儿童房</a>
+							<a href="javascript:void(0);">走廊</a>
+						</div>
+						<div class="common-e default-hide" style="display:none;">
+							<a href="">储物间</a>
+						</div>
+						<a href="" class="slide-down">更多</a>
+						<a href="" class="slide-up hide-icon">收起</a>
+					</td>
+				</tr>
+				<tr>
+					<th>装饰风格</th>
+					<td>
+						<div class="common-e">
+							<a href="javascript:void(0);">北欧</a>
+							<a href="javascript:void(0);">现代简约</a>
+							<a href="javascript:void(0);">欧式</a>
+							<a href="javascript:void(0);">中式</a>
+							<a href="javascript:void(0);">美式</a>
+							<a href="javascript:void(0);">田园</a>
+							<a href="javascript:void(0);">地中海</a>
+							<a href="javascript:void(0);">工业风</a>
+							<a href="javascript:void(0);">东南亚</a>
+							<a href="javascript:void(0);">混搭</a>
+						</div>
+						<div class="common-e default-hide" style="display:none;">
+							<a href="">日式</a>
+							<a href="">美式乡村</a>
+							<a href="">简欧</a>
+							<a href="">新古典</a>
+						</div>
+						<a href="" class="slide-down">更多</a>
+						<a href="" class="slide-up hide-icon">收起</a>
+					</td>
+				</tr>
+				<tr>
+					<th>家居摆件</th>
+					<td>
+						<div class="common-e">
+							<a href="">橱柜</a>
+							<a href="">浴室柜</a>
+							<a href="">床头柜</a>
+							<a href="">书柜</a>
+							<a href="">床</a>
+							<a href="">书桌</a>
+							<a href="">储物柜</a>
+							<a href="">沙发</a>
+							<a href="">酒柜</a>
+							<a href="">窗帘</a>
+						</div>
+						<div class="common-e default-hide" style="display:none;">
+							<a href="">吊灯</a>
+							<a href="">衣柜</a>
+							<a href="">鞋柜</a>
+							<a href="">儿童床</a>
+						</div>
+						<a href="" class="slide-down">更多</a>
+						<a href="" class="slide-up hide-icon">收起</a>
+					</td>
+				</tr>
+				<tr>
+					<th>局部</th>
+					<td>
+						<div class="common-e">
+							<a href="">吊顶</a>
+							<a href="">榻榻米</a>
+							<a href="">背景墙</a>
+							<a href="">隔断</a>
+							<a href="">卡座</a>
+							<a href="">收纳</a>
+							<a href="">飘窗</a>
+							<a href="">干湿分离</a>
+							<a href="">阅读角</a>
+							<a href="">衣帽间</a>
+						</div>
+						<div class="common-e default-hide" style="display:none;">
+							<a href="">楼梯</a>
+							<a href="">吧台</a>
+							<a href="">电视墙</a>
+							<a href="">隐形门</a>
+						</div>
+						<a href="" class="slide-down">更多</a>
+						<a href="" class="slide-up hide-icon">收起</a>
+					</td>
+				</tr>
+			</table>
+
+			<div class="gallery">
+				<ul>
+
+					<li class="gallery-img">
+						<a href="">
+							<img src="images/example1(1).jpg" alt="">
+						</a>
+						<div class="gallery-text">
+							<a href=""><span class="icon icon-share2"></span>分享</a>
+							<a href=""><span class="icon icon-heart"></span>收藏</a>
+						</div>
+						<h4>混搭时尚书房案例展示</h4>
+					</li>
+					<li class="gallery-img">
+						<a href="">
+							<img src="images/example1(2).jpg" alt="">
+						</a>
+						<div class="gallery-text">
+							<a href=""><span class="icon icon-share2"></span>分享</a>
+							<a href=""><span class="icon icon-heart"></span>收藏</a>
+						</div>
+						<h4>混搭时尚书房案例展示</h4>
+					</li>
+					<li class="gallery-img">
+						<a href="">
+							<img src="images/example1(3).jpg" alt="">
+						</a>
+						<div class="gallery-text">
+							<a href=""><span class="icon icon-share2"></span>分享</a>
+							<a href=""><span class="icon icon-heart"></span>收藏</a>
+						</div>
+						<h4>混搭时尚书房案例展示</h4>
+					</li>
+					<li class="gallery-img">
+						<a href="">
+							<img src="images/example1(4).jpg" alt="">
+						</a>
+						<div class="gallery-text">
+							<a href=""><span class="icon icon-share2"></span>分享</a>
+							<a href=""><span class="icon icon-heart"></span>收藏</a>
+						</div>
+						<h4>混搭时尚书房案例展示</h4>
+					</li>
+					<li class="gallery-img">
+						<a href="">
+							<img src="images/example1(5).jpg" alt="">
+						</a>
+						<div class="gallery-text">
+							<a href=""><span class="icon icon-share2"></span>分享</a>
+							<a href=""><span class="icon icon-heart"></span>收藏</a>
+						</div>
+						<h4>混搭时尚书房案例展示</h4>
+					</li>
+					<li class="gallery-img">
+						<a href="">
+							<img src="images/example1(6).jpg" alt="">
+						</a>
+						<div class="gallery-text">
+							<a href=""><span class="icon icon-share2"></span>分享</a>
+							<a href=""><span class="icon icon-heart"></span>收藏</a>
+						</div>
+						<h4>混搭时尚书房案例展示</h4>
+					</li>
+					<li class="gallery-img">
+						<a href="">
+							<img src="images/example1(7).jpg" alt="">
+						</a>
+						<div class="gallery-text">
+							<a href=""><span class="icon icon-share2"></span>分享</a>
+							<a href=""><span class="icon icon-heart"></span>收藏</a>
+						</div>
+						<h4>混搭时尚书房案例展示</h4>
+					</li>
+					<li class="gallery-img">
+						<a href="">
+							<img src="images/example1(8).jpg" alt="">
+						</a>
+						<div class="gallery-text">
+							<a href=""><span class="icon icon-share2"></span>分享</a>
+							<a href=""><span class="icon icon-heart"></span>收藏</a>
+						</div>
+						<h4>混搭时尚书房案例展示</h4>
+					</li>
+					<li class="gallery-img">
+						<a href="">
+							<img src="images/example1(9).jpg" alt="">
+						</a>
+						<div class="gallery-text">
+							<a href=""><span class="icon icon-share2"></span>分享</a>
+							<a href=""><span class="icon icon-heart"></span>收藏</a>
+						</div>
+						<h4>混搭时尚书房案例展示</h4>
+					</li>
+					<li class="gallery-img">
+						<a href="">
+							<img src="images/example1(10).jpg" alt="">
+						</a>
+						<div class="gallery-text">
+							<a href=""><span class="icon icon-share2"></span>分享</a>
+							<a href=""><span class="icon icon-heart"></span>收藏</a>
+						</div>
+						<h4>混搭时尚书房案例展示</h4>
+					</li>
+					<li class="gallery-img">
+						<a href="">
+							<img src="images/example1(11).jpg" alt="">
+						</a>
+						<div class="gallery-text">
+							<a href=""><span class="icon icon-share2"></span>分享</a>
+							<a href=""><span class="icon icon-heart"></span>收藏</a>
+						</div>
+						<h4>混搭时尚书房案例展示</h4>
+					</li>
+					<li class="gallery-img">
+						<a href="">
+							<img src="images/example1(12).jpg" alt="">
+						</a>
+						<div class="gallery-text">
+							<a href=""><span class="icon icon-share2"></span>分享</a>
+							<a href=""><span class="icon icon-heart"></span>收藏</a>
+						</div>
+						<h4>混搭时尚书房案例展示</h4>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- 主体内容区结束 -->
+
+	<div class="footer">
+
+		<div class="footer_nav">
+			<ul>
+				<li>
+					<h6>关于我们</h6>
+					<div>
+						<a href="#">充满活力的团队</a>
+						<a href="#">加入我们</a>
+						<a href="#">新闻中心</a>
+						<a href="#">新手帮助</a>
+					</div>
+				</li>
+				<li>
+					<h6>产品和服务</h6>
+					<div>
+						<a href="#">云设计中心</a>
+						<a href="#">样板间</a>
+						<a href="#">户型改造</a>
+						<a href="#">风水评测</a>
+						<a href="#">手机应用</a>
+						<a href="#">虚拟体验馆</a>
+					</div>
+				</li>
+				<li>
+					<h6>更多</h6>
+					<div>
+						<a href="#">商务合作</a>
+						<a href="#">酷币购买</a>
+						<a href="#">代理加盟</a>
+						<a href="#">设计师招募</a>
+					</div>
+				</li>
+				<li class="footer_contact">
+					<h6>联系我们</h6>
+					<p>
+						<span class="fc_name">商务</span>
+						<span class="fc">电话：0571-81021879</span>
+						<span class="fc"><a href="#">QQ: 2850219528</a></span>
+					</p>
+					<p>
+						<span class="fc_name">客服</span>
+						<span class="fc"><a href="#">QQ: 800020682</a></span>
+					</p>
+					<p>
+						<span class="fc_name">关注</span>
+						<span class="fc fc_weibo"><a href="#"></a></span>
+						<span class="fc fc_weixin"><a href="#"></a></span>
+					</p>
+				</li>
+			</ul>
+		</div>
+		
+		<div class="footer_bottom">
+			<span class="footer_link-name">友情链接</span>
+			<div class="footer_link">
+
+				<a href="#">酷家乐装修家居</a>
+				<span>|</span>
+
+				<a href="#">新浪家居</a>
+				<span>|</span>
+
+				<a href="#">慧聪网</a>
+				<span>|</span>
+
+				<a href="#">中国环保网</a>
+				<span>|</span>
+
+				<a href="#">卧室装修</a>
+				<span>|</span>
+
+				<a href="#">卫浴</a>
+				<span>|</span>
+
+				<a href="#">装修</a>
+				<span>|</span>
+
+				<a href="#">杭州分类信息网</a>
+				<span>|</span>
+
+				<a href="#">欧式电视柜</a>
+				<span>|</span>
+
+				<a href="#">浙江招标网</a>
+				<span>|</span>
+
+				<a href="#">广州家居装修</a>
+				<span>|</span>
+
+				<a href="#">住趣家居网</a>
+				<span>|</span>
+
+				<a href="#">酷家乐手机站</a>
+
+			</div>
+			<div class="footer_copyright">
+				本网站仅供学习交流，版权所有：<a href="http://www.kujiale.com">酷家乐</a>&nbsp;&nbsp;如有侵权，立即删除
+			</div>
+		
+	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+
+			// 点击更多，显示隐藏内容
+			$(".slide-down").click(function(event) {
+				$(this).siblings("a").removeClass('hide-icon');
+				$(this).siblings('.default-hide').slideDown('slow');
+				$(this).addClass('hide-icon');
+				return false;//一定要阻止默认事件！！
+			});
+			// 点击收起，隐藏内容
+			$(".slide-up").click(function(event) {
+				$(this).siblings("a").removeClass('hide-icon');
+				$(this).siblings('.default-hide').slideUp('slow');
+				$(this).addClass('hide-icon');
+				return false;
+			});
+			
+			// 点击条件项显示相应内容
+			$(".common-e a").click(function(event) {
+
+				$(this).addClass('on');
+				$(this).parents('td').children('.common-e').children('a').not(this).removeClass('on');
+
+				$(".factor").css("display","block");
+
+				var items = $(this).parents('td').children('.common-e').children('a');
+				var topItems = $(".factor ul li");
+				
+				// 如果已有相同行的条件存在，则把之前的删除
+				for (var j = 0; j < topItems.length; j++) {
+					for (var i = 0; i < items.length; i++) {
+						if(topItems.eq(j).children('a').text().slice(0,-1) == items.eq(i).text()){
+							topItems.eq(j).remove();
+							items.eq(i).removeClass('on');
+						}
+					};
+				};
+				
+				// 添加相应条件项
+				$(".factor ul").prepend('<li class="factor-item"> <a href="#">' + $(this).text() + '<span>×</span></a> </li>');
+
+				return false;
+			});
+
+			// 点击上方条件项本身，删除自身，取消相应条件高亮
+			$(".factor").on('click', '.factor-item', function(event) {
+				
+				var items = $(".common-e a");
+				var topItems = $(this).parent('ul').children('.factor-item');
+				for (var i = 0; i < items.length; i++) {
+					if($(this).children('a').text().slice(0,-1) == items.eq(i).text()){
+						items.eq(i).removeClass('on');
+					}
+				};
+				$(this).remove();
+				// 如果条件项个数为0，直接删除.factor
+				if($(".factor ul li").length == 0){
+					$(".factor").css("display","none");
+				}
+				return false;
+			});
+
+			// 鼠标移上图片变大,显示底部分享收藏条
+			$(".gallery-img").mouseenter(function(event) {
+
+				$(this).children('a').children('img').removeClass('zoomOut');
+				$(this).children('a').children('img').addClass('zoomIn');
+				$(this).children('.gallery-text').animate({height: 60}, 500, function(){
+					if($(":animated").length != 0){
+						return;
+					}
+				})
+			});
+
+			$(".gallery-img").mouseleave(function(event) {
+				
+				$(this).children('a').children('img').addClass('zoomOut');
+				$(this).children('a').children('img').removeClass('zoomIn');
+				$(this).children('.gallery-text').animate({height: 0}, 500, function(){
+					if($(":animated").length != 0){
+						return;
+					}
+				})
+			});
+
+			
+
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+body{
+	background: #fff;
+}
+.neighbor{
+	width: 980px;
+	margin: 20px auto;
+}
+.neighbor-hd{
+	height: 120px;
+}
+.neighbor-hd img{
+	display: block;
+	width: 120px;
+	height: 120px;
+	float: left;
+}
+.neighbor-hd .neighbor-title{
+	float: left;
+	margin-left: 30px;
+}
+.neighbor-hd .neighbor-title h3{
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 40px;
+}
+.neighbor-hd .neighbor-title p{
+	font-size: 16px;
+	line-height: 40px;
+	font-weight: 400;
+}
+
+.position{
+	float: left;
+	margin-left: 200px;
+	line-height: 50px;
+}
+#province{
+	/*border: 1px solid #ccc;*/
+}
+
+#comment{
+	width: 980px;
+	margin: 0px auto;
+}
+#comment ul li{
+	overflow: hidden;
+	padding: 40px 0px;
+}
+#comment ul li img{
+	display: block;
+	float: left;
+	border-radius: 40px;
+	margin-left: 20px;
+	padding: 10px;
+}
+#comment ul li div{
+	float: left;
+	width: 650px;
+	margin-left: 50px;
+}
+#comment ul li div h4{
+	font-size: 24px;
+	line-height: 40px;
+}
+#comment ul li div p{
+	font-size: 14px;
+	line-height: 20px;
+}
+.loading{
+	display: block;
+	margin: 10px auto;
+}
+.page2,.page3{
+	display: none;
+}
+
+.nomore{
+	position: fixed;
+	left:40%;
+	top:35%;
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	font-size: 14px;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}

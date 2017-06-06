@@ -1,0 +1,692 @@
+/*内容区开始*/
+/*广告条开始*/
+#banner{
+	width: 100%;
+	height:480px;
+}
+.banner_bgcolor0{
+	background: #4DC9D5;
+}
+.banner_bgcolor1{
+	background: #EE4444;
+}
+.banner_bgcolor2{
+	background: #1BB5F1;
+}
+.banner_bgcolor3{
+	background: #2E82D8;
+}
+.banner_bgcolor4{
+	background: #EB2C58;
+}
+.banner_content{
+	width: 1180px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+/*轮播图按钮*/
+.banner_bullets{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	z-index: 999;
+}
+
+
+.banner_bullets span{
+	display: block;
+	float: left;
+	width: 8px;
+	height: 8px;
+	border-radius: 5px;
+	margin: 0px 8px;
+	border: 2px solid #fff;
+	background: transparent;
+	cursor: pointer;
+}
+.bullet_highlight{
+	border:2px solid #37B5F9!important;
+}
+#banner_left{
+	width: 890px;
+	float: left;
+	position: relative;
+}
+#banner_left a{
+	display: none;
+}
+#banner_right{
+	width: 290px;
+	height: 460px;
+	padding:10px 0px;
+	float: right;
+}
+
+/*广告条右上*/
+#content #banner #banner_right_top{
+	background: url(../images/phone.jpg) no-repeat right 30px bottom #fff;
+}
+
+#content #banner #banner_right_top ul{
+	/*display: block;*/
+	width: 240px;
+	height: 289px;
+	padding:15px 30px;
+}
+#content #banner #banner_right_top ul li{
+	display: block;
+	width: 240px;
+	height: 48px;
+	padding:15px 0px;
+	border-bottom: 1px solid #ccc;
+}
+#banner_right_top ul li a {
+	display: block;
+	width: 240px;
+	height: 48px;
+}
+#banner_right_top ul li h2{
+	font-size: 18px;
+	color: #333;
+	font-weight: bold;
+	line-height: 27px;
+}
+#banner_right_top ul li h2:hover{
+	color: #07b;
+}
+.desc{
+	height: 21px;
+	font-size: 14px;
+	color: #999;
+}
+.phone{
+	/*display: block;*/
+	/*width: 240px;*/
+	height: 101px !important;
+	border:none !important;
+}
+/*广告条右上*/
+
+/*广告条右下*/
+#banner_right_bottom{
+	width: 240px;
+	height: 101px;
+	padding:15px 30px;
+	margin-top: 10px;
+	background: #fff;
+	text-align: center;
+}
+#banner_right_bottom h2{
+	font-size: 18px;
+	color: #333;
+	font-weight: bold;
+	line-height: 27px;
+	margin-bottom: 5px;
+}
+.btn{
+	display: block;
+	width: 56px;
+	line-height: 21px;
+	color: #fff;
+	background: #37B5F9;
+	padding: 6px 20px;
+	margin: 15px auto;
+	font-size: 14px;
+}
+#banner_right_bottom a:hover{
+	color: #fff;
+	opacity: 0.9;
+}
+/*广告条右下*/
+
+/*装修样板间*/
+#sample{
+	background: #fff;
+	padding-bottom: 40px;
+}
+.hd{
+	width: 1180px;
+	padding:52px 0px 30px 0px;
+	text-align: center;
+	margin: 0px auto;
+}
+.hd h3{
+	height: 45px;
+	line-height: 45px;
+	font-size: 30px;
+	font-weight: normal;
+}
+.tabs{
+	width: 1180px;
+	margin: 0px auto;
+}
+.tabs ul{
+	width: 910px;
+	margin:10px auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+.tabs ul li{
+	display: block;
+	float: left;
+	margin:0px 5px;
+	text-align: center;
+}
+
+
+.tabs ul li a{
+	display: block;
+	font-size: 14px;
+	color: #000;
+	background: #f2f2f2;
+	padding:6px 25px;
+	border-radius: 3px;
+}
+
+.tabs ul li a:hover{
+	background: #37B5F9;
+	color: #fff;
+}
+.tabs ul li .tab-select{
+	background: #37B5F9;
+	color: #fff;
+}
+
+/*样板间具体内容*/
+#sample_content{
+	width: 1180px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+#sample_content ul{
+	width: 1200px;
+
+}
+.samples{
+	display: block;
+	float: left;
+	margin: 0px 20px 20px 0px;
+	width: 280px;
+	height: 280px;
+}
+.samples a{
+	display: block;
+	width: 280px;
+	height: 280px;
+	position: relative;
+}
+.samples img{
+	display: block;
+	width: 280px;
+	height: 280px;
+}
+
+
+
+/*鼠标移上显示的内容*/
+.wrapper{
+	width: 280px;
+	height: 0px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	overflow: hidden;
+}
+
+/*动画效果-normal*/
+.sample-normal a .wrapper{
+	height: 0px;
+	-webkit-transition:all 0.3s ease-in;
+	-moz-transition:all 0.3s ease-in;
+}
+.sample-normal a:hover .wrapper{
+	height: 280px;
+	-webkit-transition:all 0.3s ease-in;
+	-moz-transition:all 0.3s ease-in;
+}
+
+.setmyhome{
+	height: 280px;
+	position: static;
+}
+.wrapper_content{
+	width: 200px;
+	height: 140px;
+	padding: 50px 40px 90px;
+	background: #00D2C2;
+	color: #fff;
+	text-align: left;
+}
+.wrapper_content h2{
+	font-size: 40px;
+	height: 54px;
+	line-height: 54px;
+	font-weight: 500;
+}
+.wrapper_content p{
+	font-size: 16px;
+	height: 24px;
+	line-height: 24px;
+	margin-top: 62px;
+	font-weight: normal;
+}
+
+/*设定我的家*/
+.design_my_house .wrapper_content{
+	width: 280px;
+	height: 220px;
+	padding: 0px;
+	padding-top: 60px;
+	background: #7C004F;
+	text-align: center;
+	cursor: pointer;
+}
+.design_my_house .wrapper_content h2{
+	height: 54px;
+	line-height: 54px;
+}
+.design_my_house .wrapper_content p{
+	height: 24px;
+	line-height: 24px;
+	margin-top: 10px;
+}
+.design_my_house .wrapper_content a{
+	display: block;
+	width: 64px;
+	height: 24px;
+	padding: 10px 50px;
+	font-size: 16px;
+	color: #fff;
+	font-weight: 400;
+	border: 1px solid #fff;
+	margin: 0px auto;
+	margin-top: 50px;
+}
+/*小户型改出大客厅*/
+.bian{
+	display: block;
+	float: left;
+	margin: 0px 20px 0px 0px;
+	width: 580px;
+	/*height: 760px;*/
+}
+.bian a{
+	/*height: 760px;*/
+	display: block;
+	position: relative;
+}
+.bian img{
+	display: block;
+	width: 580px;
+	height: 580px;
+}
+.wrapper_bian{
+	width: 580px;
+	height: 180px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	background: #007A87;
+}
+.wrapper_bian_content {
+	width: 520px;
+	height: 140px;
+	padding:30px 30px 10px;
+	background: #007A87;
+}
+.wrapper_bian_content p{
+	margin-top: 5px;
+}
+/*动画效果-bian*/
+.bian a .wrapper_bian{
+	height: 180px;
+	padding-top: 0px;
+	-webkit-transition:all 0.3s ease-in;
+	-moz-transition:all 0.3s ease-in;
+}
+.bian a:hover .wrapper_bian{
+	height: 380px;
+	padding-top: 200px;
+	-webkit-transition:all 0.3s ease-in;
+	-moz-transition:all 0.3s ease-in;
+}
+/*黄绿调*/
+.yellow_blue img{
+	width: 580px;
+}
+ .yellow_blue .wrapper{
+	width: 580px;
+}
+.yellow_blue .wrapper_content{
+	width: 340px;
+	height: 140px;
+	padding-left: 120px;
+	padding-right: 120px;
+	background: #7C004F;
+}
+/*装修样板间*/
+
+/*装修社区*/
+#block{
+	height: 527px;
+	padding-bottom: 60px;
+}
+#block_content{
+	width: 1180px;
+	margin: 0px auto;
+	/*overflow: hidden;*/
+}
+
+/*轮播图*/
+
+#slide{
+	float: left;
+	width: 690px;
+	height: 400px;
+	position: relative;
+}
+/*分页器*/
+.slide_bullets{
+	position: absolute;
+	bottom: 10px;
+	left: 285px;
+	z-index: 999;
+}
+.slide_bullets span{
+	display: block;
+	float: left;
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	margin: 0px 5px;
+	background: rgba(0,0,0,0.5);
+	cursor: pointer;
+}
+.slide_bullets .bullet_highlight{
+	border:none!important;
+	background: rgba(255,255,255,0.8);
+}
+/*左右箭头*/
+
+.arrow{
+	width: 20px;
+	height: 36px;
+	display: block;
+	color: #fff;
+	font-size: 30px;
+	font-weight: lighter;
+	background: rgba(0,0,0,0.4);
+	padding: 12px;
+	z-index: 999;
+}
+.arrow:hover{
+	background: rgba(0,0,0,0.7);
+}
+#prev{
+	position: absolute;
+	top: 45%;
+	left: 0px;
+}
+#next{
+	position: absolute;
+	top: 45%;
+	right: 0px;
+}
+/*热门*/
+#hot{
+	float: left;
+	width: 490px;
+	height: 400px;
+	background: #fff;
+}
+
+.hot_header{
+	width: 450px;
+	height: 20px;
+	line-height: 20px;
+	padding: 24px 20px;
+	border-top:1px solid #eee;
+	border-right:1px solid #eee;
+}
+.hot_header span{
+	font-size: 20px;
+	line-height: 20px;
+	display: block;
+	float: left;
+}
+.hot_header a{
+	display: block;
+	float: right;
+	font-size: 12px;
+	color: #999;
+	line-height: 20px;
+}
+
+.hot_content ul li{
+	display: block;
+	float: left;
+	width: 244px;
+	height: 165px;
+	border-top:1px solid #eee;
+	border-right:1px solid #eee;
+}
+.pic{
+	height: 60px;
+	padding-top: 25px;
+}
+.pic img{
+	display: block;
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	margin: 0px auto;
+}
+.tit{
+	font-size: 18px;
+	margin-top: 5px;
+	text-align: center;
+}
+.info{
+	color: #999;
+	margin-top: 5px;
+	text-align: center;
+}
+/*装修社区*/
+
+/*装修效果图*/
+#examples{
+	/*height: 527px;*/
+	/*padding-bottom: 60px;*/
+	background: #fff;
+	overflow: hidden;
+	width: 100%;
+}
+.example_item{
+	width: 50%;
+	float: left;
+	overflow: hidden;
+}
+.example_item a{
+	display: block;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.p40{
+	width: 40%;
+	/*z-index: 10000;*/
+}
+.p60{
+	width: 60%;
+}
+/*动画效果*/
+.example-hover{
+	width: 100%;
+	height: 0px;
+	color: #fff;
+	background: rgba(0,0,0,0.7);
+	text-align: center;
+	z-index: 999;
+	position: absolute;
+	bottom: 0px;
+}
+.example-hover h2{
+	font-size: 24px;
+	font-weight: 700;
+}
+.example-hover p{
+	font-size: 14px;
+	margin-top: 5px;
+}
+/*p60鼠标悬停*/
+.p60{
+	width: 60%;
+	-webkit-transition:all 0.3s ease-in;
+	-moz-transition:all 0.3s ease-in;
+}
+/*p40鼠标悬停*/
+.p40{
+	width: 40%;
+	-webkit-transition:all 0.3s ease-in;
+	-moz-transition:all 0.3s ease-in;
+}
+.p40:hover{
+	width: 60%;
+}
+.p40:hover+.p60{
+	width: 40%;
+}
+.p60 .example-hover{
+	height: 0px;
+	padding-top: 0px;
+	-webkit-transition:all 0.3s ease-in;
+	-moz-transition:all 0.3s ease-in;
+}
+.p60:hover .example-hover{
+	width: 100%;
+	height: 100px;
+	padding-top: 20px;
+} 
+.p40 .example-hover{
+	width: 100%;
+	height: 0px;
+	padding-top: 0px;
+	-webkit-transition:all 0.3s ease-in;
+	-moz-transition:all 0.3s ease-in;
+}
+.p40:hover .example-hover{
+	width: 100%;
+	height: 100px;
+	padding-top: 20px;
+} 
+/*装修效果图*/
+
+/*云设计*/
+#design{
+	/*height: 527px;*/
+	padding-bottom: 60px;
+}
+#design_content{
+	width: 1180px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+#design_content ul{
+	width: 1200px;
+	overflow: hidden;
+}
+#design_content ul li{
+	display: block;
+	float: left;
+	width: 380px;
+	margin-right: 20px;
+}
+#design_content ul li a{
+	display: block;
+	width: 380px;
+	position: relative;
+	height: 510px;
+}
+
+#design_content ul li a img{
+	display: block;
+	width: 380px;
+	height: 380px;
+}
+.design_footer{
+	text-align: center;
+	width: 380px;
+	height: 100px;
+	padding-top: 30px;
+	color: #fff;
+	position: absolute;
+	bottom: 0px;
+}
+.design_footer h2{
+	font-size: 24px;
+	font-weight: 400;
+	height: 36px;
+	line-height: 36px;
+}
+.design_footer p{
+	margin-top: 0px;
+	margin-top: 5px;
+	font-size: 14px;
+}
+.d1{
+	background: #00D2C2;
+}
+.d2{
+	background: #007A87;
+}
+.d3{
+	background: #FFB400;
+}
+
+/*动画效果-云设计*/
+#design_content ul li a .design_footer{
+	height: 100px;
+	padding-top: 30px;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition:all 0.3s ease-in;
+}
+#design_content ul li a:hover .design_footer{
+	height: 360px;
+	padding-top: 150px;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition:all 0.3s ease-in;
+}
+/*云设计*/
+
+
+/*合作伙伴*/
+#partner{
+	background: #fff;
+	padding: 40px 0px;
+}
+#partner h4{
+	font-size: 20px;
+	color: #000;
+	font-weight: normal;
+	text-align: center;
+	line-height: 80px;
+}
+.partner_content{
+	margin: 0px auto;
+	width: 1180px;
+	overflow: hidden;
+}
+#partner ul{
+	overflow: hidden;
+	width: 1200px;
+	margin-right: -10px;
+}
+#partner ul li{
+	display: block;
+	float: left;
+	width: 220px;
+	height: 100px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
